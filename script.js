@@ -11,7 +11,7 @@ const textfield = document.getElementById("text-field");
 function validateEmail() {
 
 
-  emaillabel.style.top = "-45px";
+  emaillabel.style.top = "-39px";
  
 
   if (!emailfield.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
@@ -36,7 +36,7 @@ function validateEmail() {
 
 function validateName() {
   
-  namelabel.style.top = "-45px";
+  namelabel.style.top = "-39px";
   if (!namefield.value.match(/^[A-Za-z '-]+$/)) {
     nameerror.innerHTML = "Please enter a valid name";
     namefield.style.borderColor = "red";
