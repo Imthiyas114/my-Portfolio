@@ -605,16 +605,7 @@ transition:1s;
     
 }
 @media  screen and (max-width:359px) {
-    #email-label{
-        position:absolute;
-        display: inline-block;
-        top: 20%;
-        left: 20%;
-      font-size: large;
-    transition:1s;
-
-    
-    }
+   
     #email-error{
         position: absolute;
         color: crimson;
