@@ -1,0 +1,124 @@
+ body{
+    overflow-x:hidden;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(54, 66, 66);
+     background-repeat: no-repeat;
+     background-size: cover, cover; /* Adjust as needed */
+     background-attachment: fixed;
+     /* height: 1500px; */
+     --first-shadow-color: rgba(19, 19, 19, 0.7);
+ }
+ .row{
+    width: 100vw;
+    background:rgb(110, 87, 224);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    font-size: 40px;
+    /* margin-right: 0; */
+    
+ }
+ .col{
+    position:relative;
+      
+      align-items: center;
+   
+      padding-block: 30px;
+      padding-inline: 10px;
+     
+      background:rgb(110, 87, 224);
+      box-shadow: 1px 2px 10px 2px var(--first-shadow-color);
+    font-size: 30px;
+    color: rgb(30, 29, 29);
+
+  }
+.ninethpart{
+    position: absolute;
+    top: 45%;
+   display: flex;
+ 
+  }
+  #c2{
+    /* left: 15%; */
+    width: 100%;
+    top: 40%;
+    display: grid;
+  }
+  iframe{
+    object-fit: cover;
+    width: 100vw;
+flex-grow: inherit;
+  }
+  .achievements {
+    width: 100%;
+    height: auto; 
+        object-fit: cover;
+    border-radius: 30px;
+}
+@media screen and (max-width: 1150px) {
+    .col{
+        font-size: 18px;
+    }
+    .ninethpart{
+        position: absolute;
+        top: 40%;
+       display: flex;
+      
+       margin-top: 0;  
+      }
+}
+@media screen and (max-width: 635px) {
+    .ninethpart {
+        position:relative;
+        display: grid; 
+        width:100%;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+    .row{
+        position: fixed;
+        top: 60%;
+        z-index: 1;
+        opacity: .9;
+        font-size: smaller;
+        left: 5%;
+    }
+    #c2{
+        position: relative;
+        border: 3px solid rgb(33, 33, 33);
+        width: 100%;
+       display: flex;
+       flex-wrap: wrap; 
+        
+    } 
+    .col{
+        font-size: 15px;
+    }
+    .is{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    #c21{
+        z-index: 1;
+    }    
+}
+@media screen and (max-width: 400px) {
+.col{
+    font-size: 12px;
+}
+iframe{
+    object-fit: cover;
+    width: 100vw;
+flex-grow: inherit;
+
+  }
+}
+.achievements:hover{
+    padding-top: 50px;
+  border: 1px solid rgb(110, 87, 224);
+   border-radius: 30px;
+   width: 150%;
+}
+
+  
