@@ -79,7 +79,9 @@ form.addEventListener("submit", (e) =>{
  sendEmail();
  
   alert('thankz for your message! _imthiyas_');
-  window.location.reload();
+ setTimeout(() => {
+    window.location.reload();
+}, 2000);
 }})
 
 
