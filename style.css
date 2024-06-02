@@ -864,3 +864,52 @@ footer{
 .featured-name.typedText{
     color: #00B5E7;
 }
+@media  screen and (max-width:540px) {
+    #email-label{
+        position:absolute;
+        display:inline-block;
+        top: 20%;
+        left: 20%;
+      font-size: large;
+    transition:1s;
+    
+    
+    }
+    #email-error{
+        position: absolute;
+        color: crimson;
+        opacity: .9;
+        top: 19%;
+        right:8%;
+    
+    }
+    #name-error{
+        position: absolute;
+        color: crimson;
+        opacity: .9;
+        top: 5%;
+        right:8% ;
+    
+    }
+}
+
+@media  screen and (max-width:359px) {
+   
+    #email-error{
+        position: absolute;
+        color: crimson;
+        opacity: .9;
+        top: 19%;
+        right:5%;
+        font-size: 2px;
+    }
+    #name-error{
+        position: absolute;
+        color: crimson;
+        opacity: .9;
+        top: 5%;
+        right:5% ;
+    font-size: 2px;
+    }
+    
+}
